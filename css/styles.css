@@ -1,0 +1,168 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-bold";
+}
+
+p {
+  color: #8F8F8F;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+#title {
+  background-color: #FFBD9B;
+  color: white;
+  font-style: Montserrat-bold;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* CTA-Section */
+.cta{
+  padding-top: 50px;
+}
+#cta {
+  text-align: center;
+  background-color: #D99879;
+  font-weight: bold;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 3%;
+}
+
+.icon {
+  color: #D99879;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #FFBD9B;
+}
+
+.img1 {
+  width: 28%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 150px;
+}
+/* features-section */
+.feature-title{
+  font-size: 1.5rem;
+}
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.img3 {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+/*navigation-bar  */
+.navbar {
+  padding: 0 0 50px;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+/* testimonial-section */
+
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+#testimonials {
+  text-align: center;
+  background-color: #D99879;
+  color: white;
+}
+
+#press {
+  background-color: #D99879;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/* pricing-section */
+.price-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.card {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+
+    text-align: center;
+  }
+
+  .img1 {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#footer {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.social-icons {
+  margin: 20px 10px;
+}
+
+.icons {
+  margin-right: 5px;
+}
+
+.icon2 {
+  margin-right: 5px;
+}
